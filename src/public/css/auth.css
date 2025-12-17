@@ -1,0 +1,127 @@
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+}
+
+/* ロゴ・タイトル */
+
+.logo,
+.subtitle,
+.step {
+  margin: 0;
+}
+
+.logo {
+  font-family: 'Times New Roman', 'Georgia', serif;
+  font-size: 50px;
+  font-weight: normal;
+  letter-spacing: 4px;
+  background: linear-gradient(90deg, #f7b7d7, #c9b7f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 22px;
+  color: #555;
+  letter-spacing: 4px;
+  margin-bottom: 15px;
+}
+
+.step {
+  font-size: 14px;
+  color: #999;
+  letter-spacing: 1px;
+  margin-bottom: 32px;
+}
+
+
+/* フォーム */
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.form-group+.form-group {
+  margin-top: 15px;
+}
+
+.form-group input::placeholder {
+    color: #aaa;
+}
+
+.form-group input:focus {
+    border-color: #a6c1ee;
+}
+
+.input-area {
+  display: flex;
+}
+
+.input-area input {
+  flex: 1;
+  height: 44px;
+  padding: 0 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-area p {
+  margin-left: 5px;
+}
+
+/*  ボタン　 */
+.btn-primary {
+    width: 60%;
+    height: 48px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #f7b7d7, #c9b7f5);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.link {
+  margin-top: 20px;
+  font-size: 14px;
+  
+}
+
+
+/* リンク */
+.link a {
+  text-decoration: none;
+  color: #a6c1ee;
+  border-bottom: 1px solid #a6c1ee;
+}
+
+.link a:hover {
+  opacity: 0.9;
+  transition: 0.5s;
+}
+
+
+/* エラー */
+.error-text {
+    font-size: 14px;
+    color: #e74c3c;
+    margin-top: 4px;
+    text-align: left;
+    line-height: 1.4;
+}

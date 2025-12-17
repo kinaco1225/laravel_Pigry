@@ -1,0 +1,30 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class WeightLog extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'user_id',
+        'date',
+        'weight',
+        'calories',
+        'exercise_time',
+        'exercise_content',
+    ];
+
+    public function scopeDateBetween($query,$from,$to)
+    {
+        if($from && $to) {
+            $query->whereBetween('date',[$from,$to]);
+        }
+
+        return $query;
+
+    }
+}

@@ -1,0 +1,20 @@
+.bg-gradient {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg,
+      #f6c1dc 0%,
+      #e6c7f2 50%,
+      #c9c9f5 100%);
+}
+
+.auth-card {
+  width: 500px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px 32px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  margin: 50px 0;
+}

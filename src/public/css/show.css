@@ -1,0 +1,177 @@
+
+.show-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+
+  /* 🔽 ここが重要 */
+  align-items: flex-start;
+  padding-top: 120px;
+  /* header 分あける */
+
+  overflow-y: auto;
+  /* エラー時にスクロール */
+  pointer-events: auto;
+  z-index: 1000;
+  /* headerより前 or 後は好み */
+}
+
+.show-overlay.active {
+  display: flex;
+}
+
+.show {
+  background: #fff;
+  width: 720px;
+  max-width: 90%;
+  padding: 24px 28px;
+  border-radius: 5px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  pointer-events: auto;
+  
+}
+
+.show-title {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* フォーム */
+.form-group {
+  margin-bottom: 14px;
+}
+
+.form-group label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 6px;
+}
+
+.required {
+  color: #fff;
+  background-color: #FF0000;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 2px;
+  margin-left: 5px;
+}
+
+
+
+.input-unit {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.input-unit input {
+  flex: 1;
+  padding: 10px 5px;
+  border-radius: 3px;
+  border: 1px solid #D3D3D3;
+}
+
+.input-unit span {
+  font-size: 12px;
+  align-items: flex-end
+}
+
+textarea {
+  width: 100%;
+  height: 90px;
+  padding: 5px;
+  resize: none;
+  border: 1px solid #D3D3D3;
+}
+
+/* フッター */
+
+/* ===== ボタン ===== */
+.btn {
+  display: inline-block;
+  font-size: 13px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.show-actions {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.show-btn-back {
+  padding: 10px 50px;
+  border-radius: 5px;
+  background: #D3D3D3;
+  color: #333;
+}
+
+.show-btn-primary {
+  padding: 10px 50px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #f7b7d7, #c9b7f5);
+  color: #fff;
+  
+}
+
+.btn-delete {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+
+.button-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* 中央の「戻る・保存」ボタングループ */
+.edit-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex: 1;
+}
+
+/* ゴミ箱ボタン（右端） */
+.delete-form {
+  margin-left: auto;
+}
+
+.btn-delete {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+
+/* エラー */
+.error-text {
+  font-size: 14px;
+  color: #e74c3c;
+  margin-top: 4px;
+  text-align: left;
+  line-height: 1.4;
+}
