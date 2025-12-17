@@ -28,8 +28,4 @@
 ## URL
 - 新規会員登録: http://localhost/register
 - ログイン: http://localhost/login
-<<<<<<< HEAD
 - 管理画面: http://localhost/weight_logs
-=======
-- 管理画面: http://localhost/weight_logs
->>>>>>> d9d30d30a00d07b976cd9398de394200eb97d917
