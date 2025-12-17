@@ -10,6 +10,9 @@
 - `php artisan key:generate`  アプリキー生成
 - `php artisan migrate --seed` によりデータベースをセットアップ  
 - `php artisan serve` でローカルサーバー起動
+- ------------------------------------------------------------------------
+- `login-email` test@example.com
+- `login-password` password
 
 ## 使用技術（実行環境）
 - PHP 8.x
