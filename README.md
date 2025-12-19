@@ -1,4 +1,4 @@
-# Laravel_Pigry（体重管理アプリ）
+<img width="681" height="306" alt="drawio" src="https://github.com/user-attachments/assets/529a94c0-e14d-4ca3-9bfe-a4e0ce8e147b" /># Laravel_Pigry（体重管理アプリ）
 
 ## 環境構築
 - Docker のビルドからマイグレーション、シーディングまでを行い開発環境を構築
@@ -21,7 +21,7 @@
 - WSL2 + Docker（開発環境）
 
 ## ER図
-
+<img width="681" height="306" alt="drawio" src="https://github.com/user-attachments/assets/ef11722e-80b2-495f-aef2-d8f052d98203" />
 
 
 
