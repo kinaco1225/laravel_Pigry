@@ -1,4 +1,3 @@
-<img width="681" height="306" alt="drawio" src="https://github.com/user-attachments/assets/529a94c0-e14d-4ca3-9bfe-a4e0ce8e147b" /># Laravel_Pigry（体重管理アプリ）
 
 ## 環境構築
 - Docker のビルドからマイグレーション、シーディングまでを行い開発環境を構築
